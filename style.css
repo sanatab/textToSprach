@@ -1,0 +1,59 @@
+body{
+    background-color:black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: gray;
+    color: black;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 15px solid black;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(28, 28, 94);
+}
+button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+button:hover{
+    background-color: rgb(24, 24, 233);
+    cursor: pointer;
+}
+img{
+    width: 50vh;
+}
+h1{
+    text-align: center;
+}
+.text{
+    padding-left: 50px;
+}
+.btn{
+    padding-left: 40%
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 100%;
+}
+select{
+    width: 270px;
+}
+.select{
+    padding-left: 40px;
+    margin-bottom: 15px; 
+}
